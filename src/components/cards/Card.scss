@@ -1,0 +1,47 @@
+
+
+.cards-wrapper{
+    widows: 100%;
+    border: 1px solid rgba(124, 122, 122, 0.2392156863);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .cards-user-info{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 20px 10px 10px 10px;
+        img{
+            width: 50px ;
+            height: 50px;
+            border-radius: 100%;
+        }
+        .info{
+            h4{
+                margin: 0;
+            }
+        }
+    
+    }
+    .post-description{
+        padding: 0px 10px;
+    }
+    .post-image{
+        img{
+            width: 100%;
+        }
+    }
+    .react-share-bar{
+        padding: 12px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .reacts {
+            cursor: pointer;
+            span{
+                &:hover{
+                    color: brown;
+                }
+            }
+        }
+    }
+}
